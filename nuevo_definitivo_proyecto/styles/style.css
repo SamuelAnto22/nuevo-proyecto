@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://wallpapers.com/images/featured/hola-kitty-en-la-pc-kbha8a5w146z68g0.jpg);
+    flex-direction: column;
+
+
+}
+#main h1{
+    color: blackj;
+    font-size: 70px;
+}
+#main p {
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 3rem;
+    text-align: center;
+
+}
+#main button{
+    padding: 10px 10px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 10%;
+    
+
+}
